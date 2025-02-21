@@ -10,8 +10,6 @@ st.write(
 
 openai.api_key = 'your-api-key'  # Replace with your OpenAI API key or use an environment variable
 
-    if "messages" not in st.session_state:
-        st.session_state.messages = []
 
     # Display the existing chat messages via `st.chat_message`.
     for message in st.session_state.messages:
