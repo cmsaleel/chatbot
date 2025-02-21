@@ -5,7 +5,7 @@ from openai import OpenAI
 st.title("💬 Tripsy!")
 st.write(
     "Welcome To Tripsy.Ai !"
-    "AI Chatboat for your assisstance"
+    " AI Chatboat for your assisstance"
 )
 
 # Ask user for their OpenAI API key via `st.text_input`.
